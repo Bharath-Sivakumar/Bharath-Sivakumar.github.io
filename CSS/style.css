@@ -1,3 +1,12 @@
+/*checking the client is mobile */
+@media only screen and (max-width: 600px){
+  header{
+    background-color: blue;
+  }
+
+
+}
+
 body {
   font: 15px/1.5 Arial, Helvetica sans-serif;
   padding: 0;
