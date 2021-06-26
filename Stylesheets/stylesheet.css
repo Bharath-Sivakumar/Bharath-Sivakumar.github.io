@@ -57,19 +57,24 @@ body {
     float: right;
     margin-top: 10px;
   }
-.content{
-    padding: 1000px;
-}
 #TitleRibbon{
     background-color:#0C2F50;
-    z-index: -1;
-    position: relative;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding-top: 500px;
 }
 #TitleRibbon h1{
     color: #FFF;
+    top: 100px;
+    bottom: 100px;
 }
 #TitleImg{
     padding-left: 255px;
+    z-index: -1;
 }
-  
+#TitleSection{
+    background-color: black;
+    
+}
   
