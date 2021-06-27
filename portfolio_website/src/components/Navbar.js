@@ -20,9 +20,9 @@ function Navbar() {
         <>
             <nav className="navBar">
                 <div className="navBar-container">
-                    <Link to='/' className="navBar-Title">
-                        Bharath Sivakumar
-                    </Link>
+                <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+                    Bharath Sivakumar
+                </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times': 'fas fa-bars'}/>
                     </div>
@@ -37,7 +37,6 @@ function Navbar() {
                             <Link to='/' className='nav-links' onClick={closeMobileMenu}>Contact Me</Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>Contact Me</Button>}
                 </div>
             </nav>
         </>
