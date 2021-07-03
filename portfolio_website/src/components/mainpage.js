@@ -23,7 +23,7 @@ function mainpage() {
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-          Contact Me
+          Visit My Socials
         </Button>
       </div>
     </div>
