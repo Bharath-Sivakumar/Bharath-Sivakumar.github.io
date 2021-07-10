@@ -2,8 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import mainpage from './components/mainpage';
-//import contact_me from './components/contact-me';
-
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +12,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={mainpage} />
         </Switch>
+        <Footer />
       </Router>
     </>
   );

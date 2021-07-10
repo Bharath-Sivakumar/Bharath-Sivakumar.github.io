@@ -31,10 +31,10 @@ function Navbar() {
                             <Link to='/' className='nav-links' onClick={closeMobileMenu}>Home</Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>Resume</Link>
+                            <Link to={{pathname: 'https://drive.google.com/file/d/1CD3j9bIE4xlIX__8tDLYRs3I3UH-zts7/view?usp=sharing'}} target='_blank' className='nav-links' onClick={closeMobileMenu}>Resume</Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>Socials</Link>
+                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>Past Projects</Link>
                         </li>
                     </ul>
                 </div>
