@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Bharath-Sivakumar.github.io/static/css/main.50cd2ddd.chunk.css",
+    "main.js": "/Bharath-Sivakumar.github.io/static/js/main.203b96ce.chunk.js",
+    "main.js.map": "/Bharath-Sivakumar.github.io/static/js/main.203b96ce.chunk.js.map",
+    "runtime-main.js": "/Bharath-Sivakumar.github.io/static/js/runtime-main.f90c6ab0.js",
+    "runtime-main.js.map": "/Bharath-Sivakumar.github.io/static/js/runtime-main.f90c6ab0.js.map",
+    "static/js/2.14e22d92.chunk.js": "/Bharath-Sivakumar.github.io/static/js/2.14e22d92.chunk.js",
+    "static/js/2.14e22d92.chunk.js.map": "/Bharath-Sivakumar.github.io/static/js/2.14e22d92.chunk.js.map",
+    "index.html": "/Bharath-Sivakumar.github.io/index.html",
+    "static/css/main.50cd2ddd.chunk.css.map": "/Bharath-Sivakumar.github.io/static/css/main.50cd2ddd.chunk.css.map",
+    "static/js/2.14e22d92.chunk.js.LICENSE.txt": "/Bharath-Sivakumar.github.io/static/js/2.14e22d92.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f90c6ab0.js",
+    "static/js/2.14e22d92.chunk.js",
+    "static/css/main.50cd2ddd.chunk.css",
+    "static/js/main.203b96ce.chunk.js"
+  ]
+}
