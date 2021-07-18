@@ -1,0 +1,25 @@
+.footer-container {
+    background-color: #242424;
+    padding: 4rem 1rem 2rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 175px;
+    width: 100%;
+    display: flex;
+  }
+.socials-container{
+  flex-direction: row !important;
+}
+
+  .contact-me1{
+    color: #fff;
+    size: 60px;
+  }
+
+.fa-inbox, .fa-twitter, .fa-github, .fa-linkedin-in {
+  color: #fff !important;
+  text-decoration: none;
+  padding-left: 5px;
+  vertical-align: middle;
+}
