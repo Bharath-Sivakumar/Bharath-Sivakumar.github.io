@@ -18,7 +18,7 @@
   }
 
 .fa-inbox, .fa-twitter, .fa-github, .fa-linkedin-in {
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
   padding-left: 5px;
   vertical-align: middle;

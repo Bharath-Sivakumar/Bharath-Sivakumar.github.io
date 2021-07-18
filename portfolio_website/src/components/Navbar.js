@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
 import { Button } from './Button'
 import './Navbar.css';
+import '../App.css'
 
 function Navbar() {
     const[click, setClick] = useState(false);
@@ -34,7 +35,7 @@ function Navbar() {
                             <Link to={{pathname: 'https://drive.google.com/file/d/1CD3j9bIE4xlIX__8tDLYRs3I3UH-zts7/view?usp=sharing'}} target='_blank' className='nav-links' onClick={closeMobileMenu}>Resume</Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>Past Projects</Link>
+                            <Link to='/past_projects' className='nav-links' onClick={closeMobileMenu}>Past Projects</Link>
                         </li>
                     </ul>
                 </div>
